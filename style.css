@@ -1,60 +1,25 @@
 html,
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  margin: 0px;
-  padding: 0px;
-  background: linear-gradient(
-    to bottom,
-    rgba(231, 240, 245, 1) 0%,
-    rgba(170, 221, 235, 1) 100%
-  );
+  background-color: #ffbc3e;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 10rem;
 }
 
 .wrapper {
-  max-width: 100%;
-  display: flex;
-  flex-direction: row;
-  height: 50%;
+  width: 80%;
+  max-width: 63.75rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.left,
-.right {
-  margin: 5px;
-  max-width: 100%;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.left {
-  align-items: center;
-  justify-content: center;
-}
-
-.profile-picture {
-  border-radius: 50%;
-}
-
-.social-links {
-  list-style: none;
-  padding-left: 0px;
-  font-size: 18px;
-}
-
-.social-links li {
-  display: inline-block;
-  margin-right: 8px;
-}
-
-.social-links a {
-  text-decoration: none;
-  padding: 4px;
-}
-
-.social-links a:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+.logo {
+  max-width: 10rem;
+  height: auto;
+  margin-bottom: 10rem;
 }
