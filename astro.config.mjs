@@ -6,6 +6,7 @@ export default defineConfig({
   output: 'static',
   build: {
     format: 'directory'
-  }
+  },
+  site: 'ryan-1914.github.io'
 });
 
