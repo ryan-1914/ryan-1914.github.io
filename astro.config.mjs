@@ -7,6 +7,6 @@ export default defineConfig({
   build: {
     format: 'directory'
   },
-  site: 'ryan-1914.github.io'
+  site: 'https://ryan-1914.github.io'
 });
 
