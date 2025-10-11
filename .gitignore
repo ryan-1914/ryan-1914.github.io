@@ -28,3 +28,6 @@ kilo/
 
 # vs code folder
 .vscode/
+
+# Claude settings
+.claude/
